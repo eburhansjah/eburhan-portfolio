@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 const ProjectsWrapper = styled.div`
     background-color: #202020;
@@ -89,7 +90,7 @@ const StyledSpanRight = styled.span`
     text-align: right;
 `;
 
-const StyledLink = styled.a`
+const StyledLink = styled(Link)`
     color: mediumaquamarine;
     font-weight: bold;
     margin: 10px 0;
@@ -189,7 +190,7 @@ export default function Projects(){
                         </StyledLi>
 
                         <StyledUl>
-                            <StyledLi><strong>Open project repo: </strong><StyledLink href="https://github.com/eburhansjah/SBR_Net.git"
+                            <StyledLi><strong>Open project repo: </strong><StyledLink to="https://github.com/eburhansjah/SBR_Net.git"
                                                                                       target="_blank" rel="noopener noreferrer">SBR-Net-repo</StyledLink>
                             </StyledLi>
 
@@ -202,7 +203,7 @@ export default function Projects(){
                             <StyledLi>
                                 Implementing conformational prediction on the SBR-Net architecture with the goal of
                                 quantifying model&apos;s uncertainty for a more explainable and interpretable model.
-                                The base model is based on this <StyledLink href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-4-6241"
+                                The base model is based on this <StyledLink to="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-4-6241"
                                                                             target="_blank" rel="noopener noreferrer">paper.</StyledLink>
                             </StyledLi>
                         </StyledUl>
@@ -221,7 +222,7 @@ export default function Projects(){
                         <StyledUl>
                             <StyledLi>
                                 <strong>Open project repo: </strong><StyledLink
-                                href="https://github.com/wtzheng99/EC500_Project7.git"
+                                to="https://github.com/wtzheng99/EC500_Project7.git"
                                 target="_blank" rel="noopener noreferrer">Lung-Histology-Scoring-repo</StyledLink>
                             </StyledLi>
 
@@ -254,7 +255,7 @@ export default function Projects(){
                         <StyledUl>
                             <StyledLi>
                                 <strong>Open project repo: </strong><StyledLink
-                                href="https://github.com/yunyunh123/EC523-SER.git"
+                                to="https://github.com/yunyunh123/EC523-SER.git"
                                 target="_blank" rel="noopener noreferrer">SER-repo</StyledLink>
                             </StyledLi>
 
@@ -288,7 +289,7 @@ export default function Projects(){
                         <StyledUl>
                             <StyledLi>
                                 <strong>Open project: </strong><StyledLink
-                                href="https://github.com/MohamedAbdelnaby7/Stock-Prices-predication-.git"
+                                to="https://github.com/MohamedAbdelnaby7/Stock-Prices-predication-.git"
                                 target="_blank" rel="noopener noreferrer">Time-Series-Forecasting-repo</StyledLink>
                             </StyledLi>
 
@@ -328,7 +329,7 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project: </strong>
-                                <StyledLink href="https://github.com/eburhansjah/eburhan-portfolio.git"
+                                <StyledLink to="https://github.com/eburhansjah/eburhan-portfolio.git"
                                             target="_blank" rel="noopener noreferrer">eburhan-portfolio-repo</StyledLink>
                             </StyledLi>
 
@@ -357,11 +358,11 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project: </strong>
-                                <StyledLink href="https://cs-people.bu.edu/eburhan/cs391/projects/mini-projects/mp2/dist/"
+                                <StyledLink to="https://cs-people.bu.edu/eburhan/cs391/projects/mini-projects/mp2/dist/"
                                             target="_blank" rel="noopener noreferrer">tvshow-api</StyledLink>
                             </StyledLi>
                             <StyledLi><strong>Open project repo: </strong>
-                                <StyledLink href="https://github.com/eburhansjah/tvshow-api.git"
+                                <StyledLink to="https://github.com/eburhansjah/tvshow-api.git"
                                             target="_blank" rel="noopener noreferrer">tvshow-api-repo</StyledLink>
                             </StyledLi>
 
@@ -409,11 +410,11 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project: </strong>
-                                <StyledLink href="https://cs-people.bu.edu/eburhan/cs391/projects/mini-projects/mp1/home/ellen-burhansjah-resume.html"
+                                <StyledLink to="https://cs-people.bu.edu/eburhan/cs391/projects/mini-projects/mp1/home/ellen-burhansjah-resume.html"
                                             target="_blank" rel="noopener noreferrer">eburhan-portfolio</StyledLink>
                             </StyledLi>
                             <StyledLi><strong>Open project repo: </strong>
-                                <StyledLink href="https://github.com/eburhansjah/eburhan-web-resume.git"
+                                <StyledLink to="https://github.com/eburhansjah/eburhan-web-resume.git"
                                             target="_blank" rel="noopener noreferrer">eburhan-portfolio-repo</StyledLink>
                             </StyledLi>
 
@@ -456,7 +457,7 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project repo: </strong>
-                                <StyledLink href="https://github.com/eburhansjah/VerilogCalculator.git"
+                                <StyledLink to="https://github.com/eburhansjah/VerilogCalculator.git"
                                             target="_blank" rel="noopener noreferrer">Verilog-Calculator-repo</StyledLink>
                             </StyledLi>
 
@@ -507,7 +508,7 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project repo: </strong>
-                                <StyledLink href="https://github.com/eburhansjah/MyRecipes.git"
+                                <StyledLink to="https://github.com/eburhansjah/MyRecipes.git"
                                             target="_blank" rel="noopener noreferrer">MyRecipes-repo</StyledLink>
                             </StyledLi>
 
@@ -552,7 +553,7 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project repo: </strong>
-                                <StyledLink href="https://github.com/eburhansjah/IFP.git"
+                                <StyledLink to="https://github.com/eburhansjah/IFP.git"
                                             target="_blank" rel="noopener noreferrer">Image-Editing-App-repo</StyledLink>
                             </StyledLi>
 

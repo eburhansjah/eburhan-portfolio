@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 const AboutWrapper = styled.div`
     background-color: #202020;
@@ -63,7 +64,7 @@ const StyledLi = styled.li`
     margin: 10px 0;
 `;
 
-const StyledLink = styled.a`
+const StyledLink = styled(Link)`
     color: violet;
     font-weight: bold;
     margin: 10px 0;
@@ -76,17 +77,17 @@ export default function About(){
             <StyledHeader>About Me</StyledHeader>
 
             <BioWrapper>
-                <StyledImage src="/src/profile.jpg" alt="Ellen Burhansjah"/>
+                <StyledImage src="/public/profile.jpg" alt="Ellen Burhansjah"/>
 
                 <StyledNav>
                     <StyledUl>
                         <StyledLi>
-                            <StyledLink href="https://www.linkedin.com/in/eburhansjah" target="_blank" rel="noopener noreferrer">
+                            <StyledLink to="https://www.linkedin.com/in/eburhansjah" target="_blank" rel="noopener noreferrer">
                                 LinkedIn
                             </StyledLink>
                         </StyledLi>
                         <StyledLi>
-                            <StyledLink href="https://github.com/eburhansjah" target="_blank" rel="noopener noreferrer">
+                            <StyledLink to="https://github.com/eburhansjah" target="_blank" rel="noopener noreferrer">
                                 GitHub
                             </StyledLink>
                         </StyledLi>
@@ -100,24 +101,24 @@ export default function About(){
                 </StyledNav>
             </BioWrapper>
 
-        <ContentWrapper>
-            <StyledContent>
-                <h1>Hi! I&apos;m Ellen Burhansjah</h1>
+            <ContentWrapper>
+                <StyledContent>
+                    <h1>Hi! I&apos;m Ellen Burhansjah</h1>
 
-                <p>
-                    I am a full-time Master&apos;s student at Boston University College of Engineering,
-                    specializing in Data Analytics within the Electrical and Computer Engineering department.
-                    <br/><br/><br/>
-                    I completed my undergraduate studies in Biochemistry, and
-                    my journey into Data Analytics was driven by my undergraduate research experience, where
-                    I worked in both experimental and computational research and discovered
-                    my passion for computational research.
-                    <br/><br/><br/>
-                    Welcome to my page! Explore my projects, and please contact me for career opportunities,
-                    collaborations or just a chat!
-                </p>
-            </StyledContent>
-        </ContentWrapper>
+                    <p>
+                        I am a full-time Master&apos;s student at Boston University College of Engineering,
+                        specializing in Data Analytics within the Electrical and Computer Engineering department.
+                        <br/><br/><br/>
+                        I completed my undergraduate studies in Biochemistry, and
+                        my journey into Data Analytics was driven by my undergraduate research experience, where
+                        I worked in both experimental and computational research and discovered
+                        my passion for computational research.
+                        <br/><br/><br/>
+                        Welcome to my page! Explore my projects, and please contact me for career opportunities,
+                        collaborations or just a chat!
+                    </p>
+                </StyledContent>
+            </ContentWrapper>
         </AboutWrapper>
     );
 }
