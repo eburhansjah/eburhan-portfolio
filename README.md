@@ -1,3 +1,3 @@
 # eburhan-portfolio
-This repo is for react based web project on my personal portfolio.
 
+This project is a web app that is based on my personal portfolio: [portfolio](https://eburhan-portfolio.vercel.app/)
