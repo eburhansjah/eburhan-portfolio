@@ -77,7 +77,7 @@ export default function About(){
             <StyledHeader>About Me</StyledHeader>
 
             <BioWrapper>
-                <StyledImage src=".../public/profile.jpg" alt="Ellen Burhansjah"/>
+                <StyledImage src="/profile.jpg" alt="Ellen Burhansjah"/>
 
                 <StyledNav>
                     <StyledUl>
