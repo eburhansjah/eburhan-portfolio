@@ -81,7 +81,7 @@ const StyledUl = styled.ul`
 `;
 
 const StyledLi = styled.li`
-    margin: 10px 0;
+    margin: 15px 0;
     position: relative;
     padding-left: 20px;
 `;
@@ -328,7 +328,7 @@ export default function Projects(){
                         </StyledLi>
 
                         <StyledUl>
-                            <StyledLi><strong>Open project: </strong>
+                            <StyledLi><strong>Open project repo: </strong>
                                 <StyledLink to="https://github.com/eburhansjah/eburhan-portfolio.git"
                                             target="_blank" rel="noopener noreferrer">eburhan-portfolio-repo</StyledLink>
                             </StyledLi>
@@ -350,7 +350,7 @@ export default function Projects(){
                         <StyledLi>
                             <StyledProjectTitle>
                                 <h3>
-                                    TV Show API, Boston MA
+                                    Recipe-Lists, Boston MA
                                 </h3>
                                 <StyledSpanRight><h3>July 2024</h3></StyledSpanRight>
                             </StyledProjectTitle>
@@ -358,7 +358,68 @@ export default function Projects(){
 
                         <StyledUl>
                             <StyledLi><strong>Open project: </strong>
-                                <StyledLink to="https://cs-people.bu.edu/eburhan/cs391/projects/mini-projects/mp2/dist/"
+                                <StyledLink to="https://recipe-lists.vercel.app"
+                                            target="_blank" rel="noopener noreferrer">recipe-lists</StyledLink>
+                            </StyledLi>
+                            <StyledLi><strong>Open project repo: </strong>
+                                <StyledLink to="https://github.com/eburhansjah/recipe-lists.git"
+                                            target="_blank" rel="noopener noreferrer">recipe-lists-repo</StyledLink>
+                            </StyledLi>
+
+                            <StyledLi><strong>Tech Stack: </strong>React, Vite, JavaScript, CSS-in-JS, useSWR,
+                                my-json-server, GitHub
+                            </StyledLi>
+
+
+                            <StyledLi><strong>About</strong></StyledLi>
+
+                            <StyledLi>
+                                Creating a web app on recipes, that was based on a self-made mock API.
+                            </StyledLi>
+                            <StyledLi>
+                                <strong>Features</strong>
+                                <ul>
+                                    <Li>Multiple pages for displaying different types of cuisines and list of
+                                        recipes based on the selected cuisine</Li>
+                                </ul>
+
+                                <StyledLi>At the bottom of each recipe page, there are two buttons:</StyledLi>
+
+                                <ul>
+                                    <Li>Back button to go back to the page with list of cuisines</Li>
+                                    <Li>To the top of the page shortcut</Li>
+                                </ul>
+
+                                <StyledLi>Each recipe comes with the following information:</StyledLi>
+
+                                <ul>
+                                    <Li>Name of dish</Li>
+                                    <Li>Type of dish</Li>
+                                    <Li>Prep time</Li>
+                                    <Li>Cook time</Li>
+                                    <Li>Number of servings</Li>
+                                    <Li>Calories per serving</Li>
+                                    <Li>Ingredients</Li>
+                                    <Li>Instructions</Li>
+                                </ul>
+
+                            </StyledLi>
+                        </StyledUl>
+
+                        <hr/>
+
+                        <StyledLi>
+                            <StyledProjectTitle>
+                            <h3>
+                                    TV Show API, Boston MA
+                            </h3>
+                                <StyledSpanRight><h3>July 2024</h3></StyledSpanRight>
+                            </StyledProjectTitle>
+                        </StyledLi>
+
+                        <StyledUl>
+                            <StyledLi><strong>Open project: </strong>
+                                <StyledLink to="https://tvshow-api.vercel.app"
                                             target="_blank" rel="noopener noreferrer">tvshow-api</StyledLink>
                             </StyledLi>
                             <StyledLi><strong>Open project repo: </strong>
