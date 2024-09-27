@@ -96,7 +96,7 @@ export default function WebAppProjects() {
 
                     <StyledLi>
                         <strong>Features</strong>
-                        
+
                         <ul>
                             <Li>Drop down menu to select other major cities in US</Li>
                             <Li>Display of the app dims at night time</Li>
@@ -157,6 +157,11 @@ export default function WebAppProjects() {
                     </StyledLi>
 
                     <StyledUl>
+                        <StyledLi><strong>Open project: </strong>
+                            <StyledLink to="https://eburhan-portfolio.vercel.app/components/Projects"
+                                        target="_blank" rel="noopener noreferrer">eburhan-portfolio</StyledLink>
+                        </StyledLi>
+
                         <StyledLi><strong>Open project repo: </strong>
                             <StyledLink to="https://github.com/eburhansjah/eburhan-portfolio.git"
                                         target="_blank" rel="noopener noreferrer">eburhan-portfolio-repo</StyledLink>
