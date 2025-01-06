@@ -64,59 +64,37 @@ export default function OtherProjects() {
 
             <StyledNav>
                 <StyledUl>
+
                     <StyledLi>
                         <StyledProjectTitle>
                             <h3>
-                                Autopilot Dashboard, Boston MA
+                                Image Encoder, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Sep 2024 - Present</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Sep - Dec 2024</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
                     <StyledUl>
                         <StyledLi><strong>Open project repo: </strong>
-                            <StyledLink to="https://github.com/EC528-Fall-2024/autopilot-dashboard.git"
-                                        target="_blank" rel="noopener noreferrer">autopilot-dashboard-repo</StyledLink>
+                            <StyledLink to="https://github.com/eburhansjah/ec504_ImageEncoder.git"
+                                        target="_blank" rel="noopener noreferrer">image-encoder-repo</StyledLink>
                         </StyledLi>
 
-                        <StyledLi><strong>Tech Stack: </strong>Python, Go, React, Kubernetes,
-                            OpenShift, Grafana, Prometheus</StyledLi>
+                        <StyledLi><strong>Tech Stack: </strong>C, CMake, AndroidStudio</StyledLi>
 
                         <StyledLi><strong>About</strong></StyledLi>
                         <StyledLi>
-                            Developing a fully functional UI dashboard for Autopilot which is a Kubernetes-native daemon
-                            that continuously monitors and evaluates GPUs, network and storage health, designed to detect
-                            and report infrastructure-level issues during lifetime of AI workloads. It is an open-resource
-                            project developed by IBM Research.<br/>
-                            <br/>
-                            Working in a team of 6, we are guided by mentors from IBM.
+                            This video encoder was designed as part of a final project for Advanced Data Structures
+                            and Algorithms class (EC504) at Boston University. It accepts a folder of JPEG images and
+                            encodes them into a simplified MPEG-1 file using functions we wrote ourselves (in a team of 4).
                         </StyledLi>
 
                         <StyledLi>
-                            <strong>Features</strong>
+                            <strong>Feature</strong>
                             <ul>
-                                <Li>Agile driven development methodology</Li>
-                            </ul>
-
-                            <StyledLi><strong><u>Login Page</u></strong></StyledLi>
-                            <ul>
-                                <Li>Setting up front-end components</Li>
-                                <Li>Connecting to Kubernetes cluster authentification</Li>
-                            </ul>
-
-                            <StyledLi><strong><u>Monitoring Page</u></strong></StyledLi>
-                            <ul>
-                                <Li>Displaying real-time node status and health check information</Li>
-                                <Li>Expandable boxes for displaying detailed information for each node</Li>
-                                <Li>Search box for quick search on nodes based on their IDs </Li>
-                            </ul>
-
-                            <StyledLi><strong><u>Testing Page</u></strong></StyledLi>
-                            <ul>
-                                <Li>Drop down feature to select types of health checks</Li>
-                                <Li>Selection of group of nodes to run the tests on</Li>
-                                <Li>Calling Autopilot’s RESTful API for test runs</Li>
-                                <Li>Displaying test results to user</Li>
+                                <Li>A history table that would enable users to edit the information they have
+                                    entered previously. Examples would be when users wish to have a different
+                                    recipe name, change serving size of the recipe, cook time, and many more</Li>
                             </ul>
                         </StyledLi>
                     </StyledUl>

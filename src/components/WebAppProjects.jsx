@@ -63,6 +63,70 @@ export default function WebAppProjects() {
             <h2>Web Application Development Projects</h2>
 
             <StyledNav>
+
+                <StyledUl>
+                    <StyledLi>
+                        <StyledProjectTitle>
+                            <h3>
+                                Autopilot Dashboard for IBM Research, Boston MA
+                            </h3>
+                            <StyledSpanRight><h3>Sep 2024 - Dec 2024</h3></StyledSpanRight>
+                        </StyledProjectTitle>
+                    </StyledLi>
+                </StyledUl>
+
+                <StyledUl>
+                    <StyledLi><strong>Open project repo: </strong>
+                        <StyledLink to="https://github.com/EC528-Fall-2024/autopilot-dashboard.git"
+                                    target="_blank" rel="noopener noreferrer">autopilot-dashboard-repo</StyledLink>
+                    </StyledLi>
+
+                    <StyledLi><strong>Tech Stack: </strong>JavaScript, React, Kubernetes, Carbon Design System,
+                    Bash, Helm, Docker, Kubernetes, Podman, OpenShift, Quay, Keycloak, GitHub OAuth, GitHub Projects</StyledLi>
+
+                    <StyledLi><strong>About</strong></StyledLi>
+                    <StyledLi>
+                        Developing a fully functional UI dashboard for Autopilot which is a Kubernetes-native daemon
+                        that continuously monitors and evaluates GPUs, network and storage health, designed to detect
+                        and report infrastructure-level issues during lifetime of AI workloads. It is an open-resource
+                        project developed by IBM Research.<br/>
+                        <br/>
+                        As a scrum master and a developer in a team of 6, we are guided by mentors from IBM.
+                    </StyledLi>
+
+                    <StyledLi>
+                        <strong>Features</strong>
+                        <ul>
+                            <Li>Agile driven development methodology with applied vertical slicing techniques</Li>
+                        </ul>
+
+                        <StyledLi><strong><u>Login Page</u></strong></StyledLi>
+                        <ul>
+                            <Li>User authentication to the cluster is RBAC based,
+                                integrating Keycloak with GitHub OAuth, and grants users either admin or viewer access
+                                based on credentials</Li>
+                            <Li>Deployed to MOC/NERC using Keycloak and GitHub Oauth </Li>
+                        </ul>
+
+                        <StyledLi><strong><u>Monitoring Page</u></strong></StyledLi>
+                        <ul>
+                            <Li>Displaying real-time node status and health check information (DCGM level 3 diagnostics)
+                                from Autopilot’s labelling of the worker nodes (using the Kubernetes Watch API)</Li>
+                            <Li>Expandable boxes for displaying detailed information for each node</Li>
+                            <Li>Search box and filtering for quick search and selection on worker nodes</Li>
+                        </ul>
+
+                        <StyledLi><strong><u>Testing Page</u></strong></StyledLi>
+                        <ul>
+                            <Li>Enables administrators to run health checks on worker nodes by sending REST API
+                                requests to IBM Autopilot</Li>
+                            <Li>Drop down feature to select types of health checks</Li>
+                            <Li>Selection of group of nodes to run the tests on</Li>
+                            <Li>Displaying test results to user in an embedded terminal window</Li>
+                        </ul>
+                    </StyledLi>
+                </StyledUl>
+
                 <StyledUl>
                     <StyledLi>
                         <StyledProjectTitle>

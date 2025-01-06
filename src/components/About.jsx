@@ -109,6 +109,12 @@ export default function About(){
                         I am a full-time Master&apos;s student at Boston University College of Engineering,
                         specializing in Data Analytics within the Electrical and Computer Engineering department.
                         <br/><br/><br/>
+                        I have a strong passion for Machine Learning and Software Engineering.
+                        I bring expertise in Python, C++/C, SQL, JavaScript, and Matlab along with experience in frameworks
+                        and tools like PyTorch, React, React Native, Kubernetes, and Docker. With strong
+                        problem-solving skills and a growth mindset, I strive to create impactful solutions that align
+                        with my passion for technology and innovation.
+                        <br/><br/><br/>
                         I completed my undergraduate studies in Biochemistry, and
                         my journey into Data Analytics was driven by my undergraduate research experience, where
                         I worked in both experimental and computational research and discovered
