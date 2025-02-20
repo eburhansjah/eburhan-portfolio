@@ -49,6 +49,11 @@ const StyledLi = styled.li`
     padding-left: 20px;
 `;
 
+const P = styled.p`
+    text-align: center;
+    margin: 5px 0;
+`;
+
 const StyledSpanRight = styled.span`
     text-align: right;
 `;
@@ -96,6 +101,8 @@ export default function MobileDevelopmentProjects() {
 
                         <StyledImage src="/mpeg1_encoder_decoder.png" alt="mpeg-1 encoder decoder pipeline" />
 
+                        <P>MPEG-1 encoding decoding pipeline</P>
+
                         <StyledLi>
                             This video encoder was designed as part of a final project for Advanced Data Structures
                             and Algorithms class (EC504) at Boston University in a team of 4.
@@ -111,6 +118,8 @@ export default function MobileDevelopmentProjects() {
                             is 18.2 kB for a spectacular 64x overall compression, and performs the entire encoding
                             process in under 1 second total runtime.
                         </StyledLi>
+
+
 
                         <StyledLi>
                             <strong>Features</strong>

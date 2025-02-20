@@ -25,6 +25,12 @@ const StyledProjectTitle = styled.div`
     align-items: center;
 `;
 
+const StyledImage = styled.img`
+    display: block;
+    margin: 10px 10px 10px 60px;
+    width: 50vw;
+`;
+
 const StyledNav = styled.nav`
     width: 100%;
 `;
@@ -57,6 +63,11 @@ const Li = styled.li`
     margin: 10px 0;
 `;
 
+const P = styled.p`
+    text-align: center;
+    margin: 5px 0;
+`;
+
 export default function MachineLearningProjects() {
     return(
         <MachineLearningWrapper id="machine-learning">
@@ -67,7 +78,64 @@ export default function MachineLearningProjects() {
                     <StyledLi>
                         <StyledProjectTitle>
                             <h3>
-                                Reconstructing 3D Volume with Low Signal-To-Background Ratio (SBR), Boston MA
+                                Uncertainty Quantification, Boston MA
+                            </h3>
+                            <StyledSpanRight><h3>Sep 2024 - Present</h3></StyledSpanRight>
+                        </StyledProjectTitle>
+                    </StyledLi>
+
+                    <StyledUl>
+                        <StyledLi><strong>Tech Stack: </strong>Python, Pytorch, Bash, JupyterLab, BU SCC</StyledLi>
+
+                        <StyledLi><strong>About</strong></StyledLi>
+
+                        <StyledImage src="/UQ-DeepVID-framework.png" alt="UQ-DeepVID-framework" />
+
+                        <P>Block diagram of DeepVIDv2 + UQ framework</P>
+
+                        <StyledLi>
+                            This project is about the implementation of distribution-free uncertainty quantification (UQ)
+                            in a self-supervised denoising algorithm (DeepVIDv2) that infers fluorescence from shot-noise-limited
+                            signals. The main objective is to have an additional validation method to ascertain the reliability of
+                            a self-supervised model that has no access to ground truth.
+                            <br/><br/>
+                            Using conformal prediction frameworks, this project estimates uncertainty at the pixel level,
+                            providing confidence intervals for the model's point predictions across both the temporal and spatial
+                            dimensions. Quantile regression is used to define the prediction intervals. Mathematical details
+                            are illustrated below with a chosen user-defined risk level of 0.1
+                        </StyledLi>
+
+                        <StyledImage src="/quantile-regression.png" alt="Quantile Regression" />
+
+                        <P>Visualization of lower and upper quantiles for uncertainty interval of 90%</P>
+
+                        <StyledLi><strong>References</strong></StyledLi>
+                        <ul>
+                            <li>
+                                Angelopoulos, A. N., Kohli, A. P., Bates, S., Jordan, M. I., Malik, J., Alshaabi, T., … Romano, Y. (2022).
+                                Image-to-Image Regression with Distribution-Free Uncertainty Quantification and Applications in
+                                Imaging. arXiv [Cs.LG]. Retrieved from http://arxiv.org/abs/2202.05265
+                            </li>
+                            <li>
+                                Platisa, J., Ye, X., Ahrens, A. M., Liu, C., Chen, I. A., Davison, I. G., ... & Chen, J. L. (2023). High-speed
+                                low-light in vivo two-photon voltage imaging of large neuronal populations. Nature Methods, 1-9
+                            </li>
+                            <li>
+                                Liu, C., Lu, J., Wu, Y., Ye, X., Ahrens, A. M., Platisa, J., … Tian, L. (2024). DeepVID v2: self-supervised
+                                denoising with decoupled spatiotemporal enhancement for low-photon voltage imaging. Neurophotonics,
+                                11(4), 045007
+                            </li>
+                        </ul>
+                    </StyledUl>
+                </StyledUl>
+
+                <hr/>
+
+                <StyledUl>
+                    <StyledLi>
+                        <StyledProjectTitle>
+                            <h3>
+                                Reconstructing 3D Volume, Boston MA
                             </h3>
                             <StyledSpanRight><h3>Jun 2024 - Aug 2024</h3></StyledSpanRight>
                         </StyledProjectTitle>
@@ -78,16 +146,19 @@ export default function MachineLearningProjects() {
                                                                                   target="_blank" rel="noopener noreferrer">SBR-Net-repo</StyledLink>
                         </StyledLi>
 
-                        <StyledLi><strong>Tech Stack: </strong>Python, Pytorch, YAML, Bash, wandb, GitHub, BU SCC
+                        <StyledLi><strong>Tech Stack: </strong>Python, Pytorch, Parquet, YAML, Bash, wandb, GitHub, BU SCC
                         </StyledLi>
-
 
                         <StyledLi><strong>About</strong></StyledLi>
 
                         <StyledLi>
                             This project was focused on implementing conformal prediction using the SBR-Net architecture,
                             with the goal of quantifying uncertainty for better model explainability and interpretability.
-                            Though the final results were not as conclusive as hoped, it provided valuable experience, particularly
+                            <br/><br/>
+                            SBR-Net is a model that does descattering and reconstructing of 3D volume from single-shot
+                            light-field measurement with low signal-to-background ratio (SBR).
+                            <br/>
+                            Although the final results were not as conclusive as hoped, it provided valuable experience, particularly
                             using tools like <strong>wandb</strong> for experiment tracking and model performance visualization.
 
                             The SBR-Net model is based on this <StyledLink to="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-4-6241"
@@ -103,9 +174,11 @@ export default function MachineLearningProjects() {
                             in a denoising model called DeepVID v2 (September 2024 - Present).
                         </StyledLi>
                     </StyledUl>
+                </StyledUl>
 
-                    <hr/>
+                <hr/>
 
+                <StyledUl>
                     <StyledLi>
                         <StyledProjectTitle>
                             <h3>
@@ -136,9 +209,11 @@ export default function MachineLearningProjects() {
                                 Deep Sets, Set Transformer, and other 6 classifiers</Li>
                         </ul>
                     </StyledUl>
+                </StyledUl>
 
-                    <hr/>
+                <hr/>
 
+                <StyledUl>
                     <StyledLi>
                         <StyledProjectTitle>
                             <h3>
@@ -170,9 +245,11 @@ export default function MachineLearningProjects() {
                                 standardize audio samples and augment Mel spectrograms</Li>
                         </ul>
                     </StyledUl>
+                </StyledUl>
 
-                    <hr/>
+                <hr/>
 
+                <StyledUl>
                     <StyledLi>
                         <StyledProjectTitle>
                             <h3>
@@ -203,7 +280,6 @@ export default function MachineLearningProjects() {
                                 providing insights and fostering discussion</Li>
                         </ul>
                     </StyledUl>
-
                 </StyledUl>
             </StyledNav>
 
