@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import {Link} from "react-router-dom";
 import MachineLearningProjects from "./MachineLearningProjects.jsx";
-import WebAppProjects from "./WebAppProjects.jsx";
+import WebDevelopmentProjects from "./WebDevelopmentProjects.jsx";
+import MobileDevelopmentProjects from "./MobileDevelopmentProjects.jsx";
 import OtherProjects from "./OtherProjects.jsx";
+import * as PropTypes from "prop-types";
 
 const ProjectsWrapper = styled.div`
     background-color: #202020;
@@ -26,7 +28,7 @@ const BackToTopButton = styled.button`
 const Menu = styled.nav`
     background-color: #202020; //#333;
     padding: 20px;
-    margin: 20px 15vw;
+    margin: 20px 12vw;
     text-decoration: none;
     font-weight: bold;
     
@@ -51,8 +53,21 @@ const MachineLearningLink = styled.a`
     }
 `;
 
-const WebAppLink = styled.a`
+const WebDevelopmentLink = styled.a`
     color: limegreen;
+    margin: 20px;
+    //text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    display: inline;
+
+    &:hover {
+        text-decoration: underline;
+    }
+`;
+
+const MobileDevelopmentLink = styled.a`
+    color: #fff15b;
     margin: 20px;
     //text-decoration: none;
     font-weight: bold;
@@ -83,12 +98,14 @@ export default function Projects(){
         <ProjectsWrapper>
             <Menu>
                 <MachineLearningLink href="#machine-learning">Machine Learning / Deep Learning</MachineLearningLink>
-                <WebAppLink href="#web-apps">Web App Dev</WebAppLink>
-                <OtherLink href="#other-projects">Other Projects</OtherLink>
+                <WebDevelopmentLink href="#web-development">Web Development</WebDevelopmentLink>
+                <MobileDevelopmentLink href="#mobile-development">Mobile Development</MobileDevelopmentLink>
+                <OtherLink href="#other-projects">Other</OtherLink>
             </Menu>
 
             <MachineLearningProjects />
-            <WebAppProjects/>
+            <WebDevelopmentProjects/>
+            <MobileDevelopmentProjects/>
             <OtherProjects/>
 
             <BackToTopButton onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Back to Top</BackToTopButton>
