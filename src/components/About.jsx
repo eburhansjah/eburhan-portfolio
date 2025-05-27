@@ -103,17 +103,17 @@ export default function About(){
 
             <ContentWrapper>
                 <StyledContent>
-                    <h1>Hi! I&apos;m Ellen Burhansjah</h1>
+                    <h1>Hi! I&apos;m Ellen Burhansjah :-)</h1>
 
                     <p>
-                        I am a full-time Master&apos;s student at Boston University College of Engineering,
-                        specializing in Data Analytics within the Electrical and Computer Engineering department.
+                        I recently completed my Master of Science in Electrical and Computer Engineering from Boston
+                        University, specializing in Data Analytics.
                         <br/><br/><br/>
-                        I have a strong passion for Machine Learning and Software Engineering.
-                        I bring expertise in Python, C++/C, SQL, JavaScript, and Matlab along with experience in frameworks
-                        and tools like PyTorch, React, React Native, Kubernetes, and Docker. With strong
-                        problem-solving skills and a growth mindset, I strive to create impactful solutions that align
-                        with my passion for technology and innovation.
+                        I have a strong passion for Machine Learning, Software Engineering, and Cloud Computing.
+                        I bring expertise in Python, SQL, NoSQL, C/C++, JavaScript, and Matlab along with experience in
+                        frameworks and tools like PyTorch, React/React Native, Kubernetes, Red Hat OpenShift, Podman,
+                        and Keycloak. With strong problem-solving skills and a growth mindset, I strive to create impactful
+                        solutions that align with my passion for technology and innovation.
                         <br/><br/><br/>
                         I completed my undergraduate studies in Biochemistry, and
                         my journey into Data Analytics was driven by my undergraduate research experience, where

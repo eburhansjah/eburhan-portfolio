@@ -80,7 +80,7 @@ export default function MobileDevelopmentProjects() {
                             <h3>
                                 Image Encoder, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Sep - Dec 2024</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Sep 2024 - Dec 2024</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
@@ -105,7 +105,7 @@ export default function MobileDevelopmentProjects() {
 
                         <StyledLi>
                             This video encoder was designed as part of a final project for Advanced Data Structures
-                            and Algorithms class (EC504) at Boston University in a team of 4.
+                            and Algorithms class (EC504) at Boston University in a 4-person team.
                             The pipeline of MPEG-1 encoder and decoder can be observed on the figure above.
 
                             <br/><br/>
@@ -225,7 +225,7 @@ export default function MobileDevelopmentProjects() {
                             <h3>
                                 Image Editing App, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Jan - May 2023</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Jan 2023 - May 2023</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 

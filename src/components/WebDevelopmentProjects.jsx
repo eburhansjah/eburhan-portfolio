@@ -100,24 +100,37 @@ export default function WebDevelopmentProjects() {
                                         target="_blank" rel="noopener noreferrer">autopilot-dashboard-repo</StyledLink>
                         </StyledLi>
 
-                        <StyledLi><strong>Tech Stack: </strong>JavaScript, React, Kubernetes, Carbon Design System,
-                        Bash, Helm, Docker, Kubernetes, Podman, OpenShift, Quay, Keycloak, GitHub OAuth, GitHub Projects
+                        <StyledLi><strong>Tech Stack: </strong>JavaScript, React, Carbon Design System, REST APIs,
+                            Podman, Quay, Kubernetes, Red Hat OpenShift (via NERC/MOC), Keycloak, GitHub OAuth,
+                            GitHub Projects, Helm
                         </StyledLi>
 
                         <StyledLi><strong>About</strong></StyledLi>
                         <StyledLi>
-                            Developing a fully functional UI dashboard for Autopilot which is a Kubernetes-native daemon
-                            that continuously monitors and evaluates GPUs, network and storage health, designed to detect
-                            and report infrastructure-level issues during lifetime of AI workloads. It is an open-resource
-                            project developed by IBM Research.<br/>
+                            This project was mentored by engineers from IBM Research. It is about developing a scalable
+                            and fully functional UI dashboard for Autopilot which is a
+                            Kubernetes-native daemon that continuously monitors and evaluates GPUs, network and
+                            storage health, designed to detect and report infrastructure-level issues during lifetime
+                            of AI workloads. It is an open-resource project developed by IBM Research.<br/>
                             <br/>
-                            As a scrum master and a developer in a team of 6, we are guided by mentors from IBM.
+                            The dashboard provides an intuitive interface for cluster administrators to monitor system
+                            performance and trigger diagnostic tests. Role-based access control (RBAC) is enforced where
+                            <b> viewers </b>can observe system metrics, while only <b>admins</b>
+                            have permission to initiate health checks.<br/>
+                            <br/>
+                            As Scrum Master and developer in 6-person team, I led Agile ceremonies including sprint planning,
+                            standups, and retrospectives, while also contributing to the codebase and deployment workflows.
                         </StyledLi>
 
                         <StyledLi>
                             <strong>Features</strong>
                             <ul>
                                 <Li>Agile driven development methodology with applied vertical slicing techniques</Li>
+                                <Li>For deployment, we used Podman and Red Hat OpenShift</Li>
+                                    <ul><li>Podman and Containerfile is used to build container image of the app</li></ul>
+                                    <ul><li>Container image is hosted on Quay which is deployed to OpenShift</li></ul>
+                                    <ul><li>Autopilot Dashboard is also able to be installed using Helm via a Helm chart that was
+                                        configured from our container image and Quay</li></ul>
                             </ul>
 
                             <StyledLi><strong><u>Login Page</u></strong></StyledLi>
@@ -125,7 +138,7 @@ export default function WebDevelopmentProjects() {
                                 <Li>User authentication to the cluster is RBAC based,
                                     integrating Keycloak with GitHub OAuth, and grants users either admin or viewer access
                                     based on credentials</Li>
-                                <Li>Deployed to MOC/NERC using Keycloak and GitHub Oauth </Li>
+                                <Li>Deployed to NERC/MOC using Keycloak and GitHub Oauth </Li>
                             </ul>
 
                             <StyledLi><strong><u>Monitoring Page</u></strong></StyledLi>
@@ -347,7 +360,7 @@ export default function WebDevelopmentProjects() {
                             <h3>
                                 MyRecipes, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Jun - Aug 2023</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Jun 2023 - Aug 2023</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 

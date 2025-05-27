@@ -80,12 +80,12 @@ export default function MachineLearningProjects() {
                             <h3>
                                 Uncertainty Quantification, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Sep 2024 - Present</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Sep 2024 - Mar 2025</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
                     <StyledUl>
-                        <StyledLi><strong>Tech Stack: </strong>Python, Pytorch, Bash, JupyterLab, BU SCC</StyledLi>
+                        <StyledLi><strong>Tech Stack: </strong>Python, PyTorch, Bash, JupyterLab, BU SCC</StyledLi>
 
                         <StyledLi><strong>About</strong></StyledLi>
 
@@ -103,6 +103,13 @@ export default function MachineLearningProjects() {
                             providing confidence intervals for the model's point predictions across both the temporal and spatial
                             dimensions. Quantile regression is used to define the prediction intervals. Mathematical details
                             are illustrated below with a chosen user-defined risk level of 0.1
+                            <br/><br/>
+                            I was advised by Prof. Lei Tian, and mentored by Dr. Chang Liu and Dr. Shuying Li in the
+                            <StyledLink
+                                to="https://sites.bu.edu/tianlab/"
+                                target="_blank" rel="noopener noreferrer"> Computational Imaging Systems Lab
+                            </StyledLink>
+
                         </StyledLi>
 
                         <StyledImage src="/quantile-regression.png" alt="Quantile Regression" />
@@ -146,7 +153,7 @@ export default function MachineLearningProjects() {
                                                                                   target="_blank" rel="noopener noreferrer">SBR-Net-repo</StyledLink>
                         </StyledLi>
 
-                        <StyledLi><strong>Tech Stack: </strong>Python, Pytorch, Parquet, YAML, Bash, wandb, GitHub, BU SCC
+                        <StyledLi><strong>Tech Stack: </strong>Python, PyTorch, Parquet, YAML, Bash, wandb, GitHub, BU SCC
                         </StyledLi>
 
                         <StyledLi><strong>About</strong></StyledLi>
@@ -165,13 +172,13 @@ export default function MachineLearningProjects() {
                                                                            target="_blank" rel="noopener noreferrer">paper.</StyledLink>
 
                             <br /> <br />
-                            I later applied the insights gained to my current graduate research project in
+                            I later applied the insights gained to my graduate research project in the
                             <StyledLink
                             to="https://sites.bu.edu/tianlab/"
                             target="_blank" rel="noopener noreferrer"> Computational Imaging Systems Lab
                             </StyledLink>
-                            , where I am now continuing to address similar challenges
-                            in a denoising model called DeepVID v2 (September 2024 - Present).
+                            , where I continued to address similar challenges
+                            in a denoising model called DeepVID v2 (September 2024 - Mar 2025).
                         </StyledLi>
                     </StyledUl>
                 </StyledUl>
@@ -184,7 +191,7 @@ export default function MachineLearningProjects() {
                             <h3>
                                 Predicting Lung Histology Inflammation Scores, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Jan - May 2024</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Jan 2024 - May 2024</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
@@ -202,7 +209,7 @@ export default function MachineLearningProjects() {
                         <StyledLi><strong>About</strong></StyledLi>
                         <ul>
                             <Li>Developed a semi-supervised deep learning model to
-                                predict inflammation level in a team of 2</Li>
+                                predict inflammation level in a 2-person team</Li>
                             <Li>Implemented nuclei segmentation (HoVer-Net) and
                                 feature extraction (ResNet50 & PLIP) techniques</Li>
                             <Li>Explored various methods for classification:
@@ -219,7 +226,7 @@ export default function MachineLearningProjects() {
                             <h3>
                                 A Multilingual Speech Emotion Recognition (SER) Model, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Jan - May 2024</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Jan 2024 - May 2024</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
@@ -237,12 +244,12 @@ export default function MachineLearningProjects() {
                         <StyledLi><strong>About</strong></StyledLi>
 
                         <ul>
-                            <Li>Developed SER models to classify 4 emotions in
-                                multilingual audio samples in a team of 4</Li>
+                            <Li>Wrote, trained, and deployed SER models to classify multilingual audio samples by emotion
+                            in a 4-person team</Li>
                             <Li>Implemented and analyzed three deep learning models:
                                 Wav2Vec, 2D-CNN/LSTM with attention, and S4</Li>
-                            <Li>Utilized extensive pre-processing techniques to
-                                standardize audio samples and augment Mel spectrograms</Li>
+                            <Li>Compilated custom datasets, including data preprocessing and signal transformations
+                                (such as Mel spectrograms)</Li>
                         </ul>
                     </StyledUl>
                 </StyledUl>
@@ -255,7 +262,7 @@ export default function MachineLearningProjects() {
                             <h3>
                                 Time-Series Forecasting on Global Economic Data, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Sep - Dec 2023</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Sep 2023 - Dec 2023</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
@@ -272,8 +279,8 @@ export default function MachineLearningProjects() {
                         <StyledLi><strong>About</strong></StyledLi>
 
                         <ul>
-                            <Li>Analyzed the efficacy of ARIMA, and RLS algorithms
-                                for short and long term forecasting in a team of 3</Li>
+                            <Li>Analyzed the efficacy of ARIMA, and RLS algorithm
+                                for short and long term forecasting in a 3-person team</Li>
                             <Li>Conducted statistical analysis to evaluate model
                                 performance and interpret results accurately</Li>
                             <Li>Produced a comprehensive final report and presented findings,

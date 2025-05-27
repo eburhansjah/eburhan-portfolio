@@ -69,7 +69,7 @@ export default function OtherProjects() {
                             <h3>
                                 Verilog Calculator, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Jan - May 2024</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Jan 2024 - May 2024</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
@@ -121,7 +121,7 @@ export default function OtherProjects() {
                             <h3>
                                 Chip-Seq to Study TF Binding Sites, Boston MA
                             </h3>
-                            <StyledSpanRight><h3>Sep - Dec 2022</h3></StyledSpanRight>
+                            <StyledSpanRight><h3>Sep 2022 - Dec 2022</h3></StyledSpanRight>
                         </StyledProjectTitle>
                     </StyledLi>
 
