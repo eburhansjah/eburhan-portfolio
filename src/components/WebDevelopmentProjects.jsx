@@ -115,7 +115,7 @@ export default function WebDevelopmentProjects() {
                             <br/>
                             The dashboard provides an intuitive interface for cluster administrators to monitor system
                             performance and trigger diagnostic tests. Role-based access control (RBAC) is enforced where
-                            <b> viewers </b>can observe system metrics, while only <b>admins</b>
+                            <b> viewers </b>can observe system metrics, while only <b>admins </b>
                             have permission to initiate health checks.<br/>
                             <br/>
                             As Scrum Master and developer in 6-person team, I led Agile ceremonies including sprint planning,
